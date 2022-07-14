@@ -1,0 +1,258 @@
+@font-face {
+  font-family: Galaxie;
+  src: url(../fonts/GalaxieCopernicus.otf);
+}
+:root {
+  --clr-primary: #003a92;
+  --clr-accent: #74788a;
+  --clr-black: #3c3c3c;
+  --ff-primary: Galaxie;
+}
+
+header {
+  padding: 1.5rem;
+}
+.icon {
+  width: 20px;
+  height: 16px;
+  float: right;
+}
+.icon2 {
+  margin-left: 52px;
+  margin-right: 118px;
+}
+#hero {
+  margin-top: 20px;
+  margin-left: 20px;
+  max-width: 100%;
+  height: 28.75rem;
+  background: white;
+  position: relative;
+}
+.hero__header {
+  padding: 60px;
+}
+
+.logo {
+  width: 148px;
+  height: 46px;
+  float: left;
+  background-image: url(../images/Union.png);
+}
+.nav__links {
+  float: right;
+  list-style: none;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+.nav__links li a {
+  text-decoration: none;
+  color: var(--clr-black);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.nav__links li a:hover {
+  opacity: 0.6;
+}
+
+.hamburger {
+  float: right;
+  display: none;
+  cursor: pointer;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #3c3c3c;
+}
+#hero__body {
+  padding: 26px 16px 0px 16px;
+  display: block;
+}
+.hero__body,
+h1 {
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  font-size: 2rem;
+  color: var(--clr-primary);
+}
+.hero__body--butn {
+  width: 10rem;
+  margin-top: 1.4rem;
+}
+.hero__body--butn,
+button:nth-child(1) {
+  padding: 13px 23px 13px 12px;
+
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.hero__body--butn,
+button:nth-child(2) {
+  margin-left: -6px;
+  padding: 12px 10px 13px 10px;
+}
+.hero__ImgDiv {
+  position: absolute;
+  left: 20px;
+  top: 380px;
+  max-width: 100%;
+  height: auto;
+}
+.hero__ImgDiv--img {
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  .icon2 {
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background-color: white;
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: white;
+  }
+  .logo {
+    margin-left: -40px;
+    width: 106px;
+    height: 32px;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+  }
+  .logo.active {
+    background-image: url(../images/dummy-logo.png);
+  }
+  .nav__links {
+    clear: right;
+    position: fixed;
+    width: 70%;
+    height: 90vh;
+    left: -100%;
+    top: 200px;
+    text-align: start;
+  }
+  .nav__links li {
+    display: block;
+    padding: 10px 0;
+    background-color: #003a92 !important;
+    border-top: 1px solid rgba(196, 196, 196, 0.1);
+  }
+  .nav__links li a {
+    color: white;
+  }
+  .nav__links--active {
+    opacity: 0.2;
+  }
+  .nav__links.active {
+    left: 80px;
+  }
+  #hero.active {
+    background-color: #003a92;
+    margin-left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+  }
+  #hero__body.active {
+    display: none;
+  }
+}
+
+
+
+.tiles{
+  margin-top: 30rem;
+  width: 100%;
+  height: auto;
+  padding: 32px 0 0 32px;
+}
+.tiles h2{
+  font-weight: 700;
+  font-size: 24px;
+color: var(--clr-primary);
+}
+.tiles__container{
+  display: flex;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+.tiles__card{
+  width: 16rem;
+  height: auto;
+  border: 1px solid white;
+  padding: 16px 16px 0 16px;
+}
+.tiles__card--img{
+  max-width: 15rem;
+  height: 8.75rem;
+
+}
+.tiles__card--img img{
+  width: 14rem;
+  height: 8.75rem;
+}
+
+.tiles__card--subcontainer{
+  padding-top: 1rem;
+  display: flex;
+  color:#74788a;
+  font-weight: 700;
+font-size: 10px;
+line-height: 10px;
+}
+.tiles__card--subcontainer-line{
+  width: 1rem;
+height: 1px;
+margin: auto 4px;
+vertical-align: bottom;
+background-color: #C4C4C4;
+}
+.tiles__card--title{
+  font-size:1.25rem ;
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: var(--clr-black);
+  padding: 12px 0px 51px 0px;
+}
+@media (max-width: 1100px) {
+
+  .tiles{
+    margin-top: 22rem;
+    
+  }
+}
+@media (max-width: 850px) {
+
+  .tiles{
+    margin-top: 15rem;
+    
+  }
+}
+@media (max-width: 600px) {
+
+  .tiles{
+    margin-top: 8rem;
+    
+  }
+}
