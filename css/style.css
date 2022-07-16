@@ -2,6 +2,10 @@
   font-family: Galaxie;
   src: url(../fonts/GalaxieCopernicus.otf);
 }
+html{
+  font-size: 62.5%;
+}
+
 :root {
   --clr-primary: #003a92;
   --clr-accent: #74788a;
@@ -10,32 +14,32 @@
 }
 
 header {
-  padding: 1.5rem;
+  padding: 2.4rem;
 }
 .icon {
-  width: 20px;
-  height: 16px;
+  width: 2rem;
+  height: 1.6rem;
   float: right;
 }
 .icon2 {
-  margin-left: 52px;
-  margin-right: 118px;
+  margin-left: 5.2rem;
+  margin-right: 11.8rem;
 }
 #hero {
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 2rem;
+  margin-left: 2rem;
   max-width: 100%;
-  height: 28.75rem;
+  height: 46rem;
   background: white;
   position: relative;
 }
 .hero__header {
-  padding: 60px;
+  padding: 6rem;
 }
 
 .logo {
-  width: 148px;
-  height: 46px;
+  width: 14.8rem;
+  height: 4.6rem;
   float: left;
   background-image: url(../images/Union.png);
 }
@@ -45,14 +49,14 @@ header {
 }
 .nav__links li {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0 1.6rem;
 }
 .nav__links li a {
   text-decoration: none;
   color: var(--clr-black);
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 .nav__links li a:hover {
   opacity: 0.6;
@@ -80,30 +84,30 @@ header {
 h1 {
   font-family: var(--ff-primary);
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 3.2rem;
   color: var(--clr-primary);
 }
 .hero__body--butn {
-  width: 10rem;
-  margin-top: 1.4rem;
+  width: 17rem;
+  margin-top: 2.24rem;
 }
 .hero__body--butn,
 button:nth-child(1) {
-  padding: 13px 23px 13px 12px;
+  padding: 1.3rem 2.3rem 1.3rem 1.2rem;
 
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.6rem;
   cursor: pointer;
 }
 .hero__body--butn,
 button:nth-child(2) {
-  margin-left: -6px;
-  padding: 12px 10px 13px 10px;
+  margin-left: -0.6rem;
+  padding: 1.2rem 1rem 1.3rem 1rem;
 }
 .hero__ImgDiv {
   position: absolute;
-  left: 20px;
-  top: 380px;
+  left: 2rem;
+  top: 38rem;
   max-width: 100%;
   height: auto;
 }
@@ -112,10 +116,17 @@ button:nth-child(2) {
 }
 
 @media (max-width: 900px) {
+ 
   .icon2 {
-    margin-left: 40px;
-    margin-right: 20px;
+    margin-left: 4rem;
+    margin-right: 2rem;
   }
+  .hero__body--butn,
+button:nth-child(2) {
+  margin-left: -0.6rem;
+  padding: 0.8rem 1rem 1.3rem 1rem;
+  align-items: center;
+}
 
   .hamburger {
     display: block;
@@ -132,9 +143,9 @@ button:nth-child(2) {
     background-color: white;
   }
   .logo {
-    margin-left: -40px;
-    width: 106px;
-    height: 32px;
+    margin-left: -4rem;
+    width: 10.6rem;
+    height: 3.2rem;
     background-repeat: none;
     background-position: center;
     background-size: cover;
@@ -178,81 +189,209 @@ button:nth-child(2) {
   }
 }
 
-
-
-.tiles{
-  margin-top: 30rem;
+.tiles {
+  margin-top: 48rem;
   width: 100%;
   height: auto;
   padding: 32px 0 0 32px;
 }
-.tiles h2{
+.tiles h2 {
   font-weight: 700;
   font-size: 24px;
-color: var(--clr-primary);
+  color: var(--clr-primary);
 }
-.tiles__container{
+.tiles__container {
   display: flex;
-  margin-top: 1rem;
+  margin-top: 1.6rem;
   overflow: hidden;
 }
-.tiles__card{
-  width: 16rem;
+.tiles__card {
+  width: 25.6rem;
   height: auto;
   border: 1px solid white;
   padding: 16px 16px 0 16px;
 }
-.tiles__card--img{
-  max-width: 15rem;
-  height: 8.75rem;
-
+.tiles__card--img {
+  max-width: 24rem;
+  height: 14rem;
 }
-.tiles__card--img img{
-  width: 14rem;
-  height: 8.75rem;
+.tiles__card--img img {
+  width: 22.4rem;
+  height: 14rem;
 }
 
-.tiles__card--subcontainer{
-  padding-top: 1rem;
+.tiles__card--subcontainer {
+  padding-top: 1.6rem;
   display: flex;
-  color:#74788a;
+  color: #74788a;
   font-weight: 700;
-font-size: 10px;
-line-height: 10px;
+  font-size: 10px;
+  line-height: 10px;
 }
-.tiles__card--subcontainer-line{
-  width: 1rem;
-height: 1px;
-margin: auto 4px;
-vertical-align: bottom;
-background-color: #C4C4C4;
+.tiles__card--subcontainer-line {
+  width: 1.6rem;
+  height: 1px;
+  margin: auto 4px;
+  vertical-align: bottom;
+  background-color: #c4c4c4;
 }
-.tiles__card--title{
-  font-size:1.25rem ;
+.tiles__card--title {
+  font-size: 2rem;
   font-family: var(--ff-primary);
   font-weight: 400;
-  line-height: 1.5rem;
+  line-height: 2.4rem;
   color: var(--clr-black);
   padding: 12px 0px 51px 0px;
 }
+.tiles__butn {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  padding-bottom: 13px;
+  border: none;
+  border-bottom: 1px solid #c4c4c4;
+  cursor: pointer;
+}
+.tiles__butn img {
+  width: 7.3px;
+  height: 12.8px;
+  margin-left: 12px;
+  margin-top: 3px;
+}
 @media (max-width: 1100px) {
-
-  .tiles{
-    margin-top: 22rem;
-    
+  .tiles {
+    margin-top: 35.2rem;
   }
 }
 @media (max-width: 850px) {
-
-  .tiles{
-    margin-top: 15rem;
-    
+  .tiles {
+    margin-top: 24rem;
   }
 }
 @media (max-width: 600px) {
+  .tiles {
+    margin-top: 12.8rem;
+  }
+}
 
-  .tiles{
-    margin-top: 8rem;
+.mission {
+  width: 100%;
+  height: 105.6rem;
+  position: relative;
+}
+.mission__container {
+  max-width: 100%;
+  height: 70rem;
+  margin-right: 6rem;
+  margin-top: 10.5rem;
+  background-color: #8c2531;
+  padding: 8rem 0 0 12rem;
+}
+.mission__container h2 {
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+}
+.mission__container h1 {
+  font-family: var(--ff-primary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.48rem;
+  color: white;
+  padding: 3.2rem 4rem 0 0;
+}
+.mission__container p {
+  font-family: var(--ff-primary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: -0.01em;
+  padding: 2rem 10rem 0 0;
+}
+.mission__ImgDiv {
+  position: absolute;
+  max-width: 90%;
+  top: 50rem;
+  height: auto;
+}
+.mission__ImgDiv--img {
+  max-width: 100%;
+}
+@media (max-width: 600px) {
+  .mission {
+    height: 56rem;
+  }
+  .mission__container {
+    height:40rem ;
+    padding: 4rem 0 0 3.3rem;
+  }
+  .mission__container h2 {
+  
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+  .mission__container h1 {
+  
+    font-size: 2.4rem;
+    padding: 1.6rem 1.6rem 0 0;
+  }
+  .mission__container p {
+   
+    font-size: 1.4rem;
+    letter-spacing: -0.01em;
+    padding: 0.8rem 1.6rem 0 0;
+  }
+  .mission__ImgDiv {
+    
+    top: 35rem;
     
   }
+  
+}
+.benefits{
+  margin-top: 1rem;
+  width: 100%;
+  height: 76.7rem;
+  background-color: white;
+}
+.benefits h2{
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--clr-primary);
+  padding: 8rem 0 4.7rem 12rem;
+}
+.benefits__container{
+  width: 100%;
+  padding-left:12rem ;
+  display: flex;
+  overflow: hidden;
+}
+.benefits__card{
+  width: 25.5rem;
+  height: 49.7rem;
+  margin-right: 6rem;
+}
+
+.benefits__card--img {
+  max-width: 25.5rem;
+  height: 34rem;
+}
+.benefits__card--img img {
+  
+}
+.benefits__card--subtitle{
+  max-width: 25.5rem;
+  height: 5rem;
+  margin-top:2rem ;
+  margin-bottom: 11.3rem;
+  font-family: var(--ff-primary);
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+letter-spacing: -0.01em;
+color: #3C3C3C;
 }
