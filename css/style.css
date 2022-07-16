@@ -17,9 +17,13 @@ header {
   padding: 2.4rem;
 }
 .icon {
-  width: 2rem;
+  width: 1.6rem;
   height: 1.6rem;
   float: right;
+  cursor: pointer;
+}
+.icon:hover{
+  opacity: 0.6;
 }
 .icon2 {
   margin-left: 5.2rem;
@@ -27,11 +31,12 @@ header {
 }
 #hero {
   margin-top: 2rem;
-  margin-left: 2rem;
+  margin-left: 6rem;
   max-width: 100%;
-  height: 46rem;
+  height: 76.8rem;
   background: white;
   position: relative;
+  
 }
 .hero__header {
   padding: 6rem;
@@ -77,19 +82,22 @@ header {
   background-color: #3c3c3c;
 }
 #hero__body {
-  padding: 26px 16px 0px 16px;
-  display: block;
+  padding: 26px 16px 0px 60px;
+  display: flex;
+ 
 }
-.hero__body,
-h1 {
+.hero__body,h1 {
+  max-width: 85.5rem;
   font-family: var(--ff-primary);
   font-weight: 400;
-  font-size: 3.2rem;
+  font-size: 6.4rem;
   color: var(--clr-primary);
-}
+  line-height: 110%;
+  letter-spacing: -0.02em; 
+ }
 .hero__body--butn {
   width: 17rem;
-  margin-top: 2.24rem;
+  margin-top: 12rem;
 }
 .hero__body--butn,
 button:nth-child(1) {
@@ -107,7 +115,7 @@ button:nth-child(2) {
 .hero__ImgDiv {
   position: absolute;
   left: 2rem;
-  top: 38rem;
+  top: 48.2rem;
   max-width: 100%;
   height: auto;
 }
@@ -115,117 +123,63 @@ button:nth-child(2) {
   max-width: 100%;
 }
 
-@media (max-width: 900px) {
- 
-  .icon2 {
-    margin-left: 4rem;
-    margin-right: 2rem;
-  }
-  .hero__body--butn,
-button:nth-child(2) {
-  margin-left: -0.6rem;
-  padding: 0.8rem 1rem 1.3rem 1rem;
-  align-items: center;
-}
-
-  .hamburger {
-    display: block;
-  }
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-    background-color: white;
-  }
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-    background-color: white;
-  }
-  .logo {
-    margin-left: -4rem;
-    width: 10.6rem;
-    height: 3.2rem;
-    background-repeat: none;
-    background-position: center;
-    background-size: cover;
-  }
-  .logo.active {
-    background-image: url(../images/dummy-logo.png);
-  }
-  .nav__links {
-    clear: right;
-    position: fixed;
-    width: 70%;
-    height: 90vh;
-    left: -100%;
-    top: 200px;
-    text-align: start;
-  }
-  .nav__links li {
-    display: block;
-    padding: 10px 0;
-    background-color: #003a92 !important;
-    border-top: 1px solid rgba(196, 196, 196, 0.1);
-  }
-  .nav__links li a {
-    color: white;
-  }
-  .nav__links--active {
-    opacity: 0.2;
-  }
-  .nav__links.active {
-    left: 80px;
-  }
-  #hero.active {
-    background-color: #003a92;
-    margin-left: 0;
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-  }
-  #hero__body.active {
-    display: none;
-  }
-}
-
 .tiles {
-  margin-top: 48rem;
+  margin-top: 25rem;
   width: 100%;
   height: auto;
-  padding: 32px 0 0 32px;
+  padding: 60px 0 0 120px;
 }
 .tiles h2 {
   font-weight: 700;
   font-size: 24px;
   color: var(--clr-primary);
+  padding-bottom: 6rem;
+}
+.tiles__col1{
+  width: 60rem;
+
+}
+.tiles__col2{
+  
+  width: 60rem;
+}
+.tiles__col3{
+  display: flex;
+ 
 }
 .tiles__container {
   display: flex;
   margin-top: 1.6rem;
   overflow: hidden;
+  flex-wrap: wrap;
 }
 .tiles__card {
-  width: 25.6rem;
+ 
   height: auto;
   border: 1px solid white;
-  padding: 16px 16px 0 16px;
-}
-.tiles__card--img {
-  max-width: 24rem;
-  height: 14rem;
-}
-.tiles__card--img img {
-  width: 22.4rem;
-  height: 14rem;
+  padding: 40px 40px 0 40px;
 }
 
+.tiles__image--one img {
+  width: 52.1rem;
+  height: 26rem;
+}
+
+.tiles__image--two img {
+  max-width: 52rem;
+  height: 22.2rem;
+}
+
+.tiles__image--three img {
+  max-width: 21.7rem;
+  height: 22.2rem;
+}
 .tiles__card--subcontainer {
   padding-top: 1.6rem;
   display: flex;
   color: #74788a;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 10px;
 }
 .tiles__card--subcontainer-line {
@@ -236,15 +190,25 @@ button:nth-child(2) {
   background-color: #c4c4c4;
 }
 .tiles__card--title {
-  font-size: 2rem;
+  font-size: 4.4rem;
   font-family: var(--ff-primary);
   font-weight: 400;
-  line-height: 2.4rem;
+  line-height: 5.2rem;
   color: var(--clr-black);
-  padding: 12px 0px 51px 0px;
+  padding: 12px 0px 91px 0px;
+}
+.tiles__card--title2{
+  font-size: 3.2rem;
+  padding-bottom: 56px;
+}
+.tiles__card--title3{
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: -0.01em;
+  padding-bottom: 47px;
 }
 .tiles__butn {
-  margin-top: 25px;
+  margin-top: 40px;
   font-weight: 700;
   font-size: 14px;
   display: flex;
@@ -252,6 +216,9 @@ button:nth-child(2) {
   border: none;
   border-bottom: 1px solid #c4c4c4;
   cursor: pointer;
+}
+.tiles__butn:hover{
+  opacity: 0.8;
 }
 .tiles__butn img {
   width: 7.3px;
@@ -299,22 +266,27 @@ button:nth-child(2) {
   font-family: var(--ff-primary);
   font-style: normal;
   font-weight: 400;
-  font-size: 4.48rem;
+  font-size: 4.4rem;
   color: white;
+  line-height: 120%;
+  letter-spacing: -0.02em;
   padding: 3.2rem 4rem 0 0;
 }
 .mission__container p {
   font-family: var(--ff-primary);
   font-style: normal;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  line-height: 140%;
   letter-spacing: -0.01em;
-  padding: 2rem 10rem 0 0;
+  color: white;
+  padding: 2rem 0rem 0 0;
+  max-width: 57rem;
 }
 .mission__ImgDiv {
   position: absolute;
   max-width: 90%;
-  top: 50rem;
+  top: 52.2rem;
   height: auto;
 }
 .mission__ImgDiv--img {
@@ -352,7 +324,7 @@ button:nth-child(2) {
   
 }
 .benefits{
-  margin-top: 1rem;
+  
   width: 100%;
   height: 76.7rem;
   background-color: white;
@@ -379,9 +351,7 @@ button:nth-child(2) {
   max-width: 25.5rem;
   height: 34rem;
 }
-.benefits__card--img img {
-  
-}
+
 .benefits__card--subtitle{
   max-width: 25.5rem;
   height: 5rem;
@@ -394,4 +364,46 @@ font-size: 18px;
 line-height: 140%;
 letter-spacing: -0.01em;
 color: #3C3C3C;
+}
+@media (max-width: 600px) {
+  .benefits{
+    height: 46rem;
+
+  }
+  .benefits h2{
+    font-size: 1.4rem;
+    padding: 4rem 0 4.7rem 3.2rem;
+  }
+  .benefits__container{
+   
+    padding-left:3.2rem ;
+   
+  }
+  .benefits__card{
+    width: 20.2rem;
+    height: 32.1rem;
+    margin-right: 1.6rem;
+  }
+  
+  .benefits__card--img {
+    max-width: 20.2rem;
+    height: 26.9rem;
+  }
+  .benefits__card--img img{
+    max-width: 20.2rem;
+    height: 26.9rem;
+  }
+  .benefits__card--subtitle{
+margin-top: 1.2rem;
+  width: 20.2rem;
+  font-size: 1.4rem;
+  height: 0.4rem;
+  margin-bottom: 0;
+  }
+}
+footer{
+  height: 41.5rem;
+  width: 100%;
+  background-color: var(--clr-black);
+  padding: 7.6rem 12rem 0  12rem;
 }
