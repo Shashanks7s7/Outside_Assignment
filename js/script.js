@@ -4,7 +4,8 @@ const logo=document.querySelector(".logo");
 const all=document.querySelector("*");
 const header=document.querySelector("header");
 const hero=document.getElementById("hero")
-const hero__body=document.getElementById("hero__body")
+const hero__body=document.getElementById("hero__body");
+const hero__img=document.getElementById("hero__ImgDiv")
 console.log(hero__body);
 hamburger.addEventListener("click",()=>{
     hamburger.classList.toggle("active");
@@ -14,6 +15,6 @@ hamburger.addEventListener("click",()=>{
     header.classList.toggle("active");
     hero.classList.toggle("active");
     hero__body.classList.toggle("active");
-
+hero__img.classList.toggle("active")
     console.log("hehe");
 })

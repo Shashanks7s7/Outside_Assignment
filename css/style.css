@@ -344,3 +344,13 @@ footer{
   background-color: var(--clr-black);
   padding: 7.6rem 12rem 0  12rem;
 }
+nav{
+  height: 8rem;
+}
+
+.footer__col1{
+  float: left;
+}
+.footer__col2{
+  float: left;
+}

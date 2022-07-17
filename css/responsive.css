@@ -45,6 +45,11 @@
   #hero {
     margin-left: 5.5rem;
   }
+  .hero__ImgDiv {
+    
+    top: 55.2rem;
+    
+  }
   .tiles {
     margin-top: 17rem;
     padding: 60px 0 0 50px;
@@ -84,6 +89,9 @@
     line-height: 130%;
     letter-spacing: -0.01em;
     padding-bottom: 40px;
+  }
+  footer{
+    padding: 7.6rem 12rem 0  10rem;
   }
 }
 @media (max-width: 1055px) {
@@ -172,6 +180,13 @@
   .founder__cardbox {
     max-width: 96rem;
     margin: 26% 4% 0 5%;
+  }
+  footer{
+    padding: 7rem 10rem 0  8rem;
+  }
+  .footer__links li {
+    
+    padding: 0 4rem 0 0;
   }
 }
 @media (max-width: 1010px) {
@@ -268,8 +283,11 @@
   #hero__body.active {
     display: none;
   }
+  #hero__ImgDiv.active{
+display: none;
+  }
   .hero__ImgDiv {
-    top: 50rem;
+    top: 52rem;
   }
   .tiles {
     margin-top: 18rem;
@@ -330,8 +348,51 @@
     max-width: 90rem;
     margin: 20% 4% 0 5%;
   }
+  .footer__icon{
+    display: none;
+  
+  }
+  .footer__icon--mobile{
+    display: block;
+  }
+  .footer__logo{
+    float: left;
+  
+  }
+  .footer__liner{
+    clear: left;
+    margin-top: 7rem;
+  }
+  .footer__links{
+    float: none;
+    
+  }
+  .footer__col2{
+    float: right;
+  }
+  .footer__links li{
+    display: blocK;
+    padding: 10px 0;
+  }
+  .footer__links li a{
+    font-size: 1.8rem;
+  }
+  nav{height: 13rem;}
+  .footer__text{
+    padding-top: 2rem;
+  }
+ 
+  
+
+  
+  
 }
 @media (max-width: 800px) {
+  .hero__ImgDiv {
+    
+    top: 56.2rem;
+    
+  }
   .tiles {
     margin-top: 14rem;
   }
@@ -421,8 +482,40 @@
     font-size: 35px;
    
   }
+  footer{
+    padding: 6rem 12rem 0  10rem;
+  }
+  .footer__text--right{
+    float: none;
+    clear: left;
+    padding-right: 0rem;
+  }
+  .footer__text--mobile{
+    float: right;
+    padding-right:0rem ;
+    margin-right: -6rem;
+  }
+  .footer__text--right{
+    text-align: center;
+    padding-top: 32px;
+  }
 }
 @media (max-width: 700px) {
+  .hero__header {
+    padding: 4rem;
+  }
+  #hero__body{
+    padding:20px 16px 0px 60px;
+  }
+  #hero__body h1 {
+    font-size: 4rem;
+    max-width: 68rem;
+  }
+  .hero__ImgDiv {
+    
+    top: 55.2rem;
+    
+  }
   .tiles {
     margin-top: 11rem;
   }
@@ -445,8 +538,11 @@
     margin-top: 5rem;
   }
   .hero__ImgDiv {
-    top: 48rem;
+    top: 45rem;
   }
+  .hero__header,nav{
+    height: 12rem;
+   }
   .mission {
     height: 72.6rem;
   }
@@ -515,7 +611,7 @@
   }
   .founder__cardbox {
     max-width: 102rem;
-    margin: 20% 4% 0 5%;
+    margin: 30% 4% 0 5%;
   }
   .founder__cardtext {
     font-size: 24px;
@@ -525,7 +621,8 @@
   }
   .founder__card{
     top: 8rem;
-    width: 66%
+    width: 66%;
+    background-size: cover;
   }
   .founder__card2 {
     width: 66%;
@@ -533,6 +630,51 @@
     top: 27rem;
     left: 3.2rem;
     display: block;
+  }
+  .founder__cardtext--two{
+    display: none;
+  }
+  .gallery{
+    height: 82rem;
+    padding-left: 4rem;
+  }
+  .gallery__container{
+    margin-top: 0;
+  }
+  .gallery__title{
+    display: block;
+    font-size: 18px;
+    margin-top: 30rem;
+    padding-bottom: 1.6rem;
+  }
+  .gallery__title--one{
+    display: none;
+  }
+  .gallery__card{
+    width: 25.6rem;
+padding: 2rem;
+
+  }
+  .gallery__cardImage{
+    max-width: 22.4rem;
+  }
+  .gallery__cardImage img{
+    width: 21.4rem;
+  }
+  .gallery__subtext{
+    padding-top: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+  }
+  footer{
+    padding: 5rem 8rem 0  8rem;
+  }
+  .footer__links, nav{
+    height:150px ;
+  }
+  .footer__text{
+    padding-left: 0rem;
   }
 }
 @media (max-width: 560px) {
@@ -557,15 +699,19 @@
   .founder__card2 {
     width: 73%;
     height: 17.5rem;
-    top: 26rem;
+    top: 27rem;
     left: 3.2rem;
     display: block;
   }
+  
 }
 @media (max-width: 500px) {
   #hero {
-    height: 50rem;
+    height: 45rem;
     margin-left: 3rem;
+  }
+  #hero__body{
+    padding: 10px 16px 0px 30px;
   }
   #hero__body h1 {
     font-size: 3rem;
@@ -576,8 +722,14 @@
     margin-top: 3rem;
   }
   .hero__ImgDiv {
-    top: 40rem;
+    top: 35rem;
   }
+  .hero__header {
+    padding: 3rem;
+  }
+  .hero__header,nav{
+    height: 10rem;
+   }
   .tiles {
     margin-top: 5rem;
   }
@@ -614,9 +766,34 @@
   .founder__card2 {
    
     height: 17.5rem;
-    top: 24rem;
+    top: 27rem;
     left: 3.2rem;
     display: block;
+  }
+  .founder__cardbox {
+    max-width: 102rem;
+    margin: 35% 4% 0 5%;
+  }
+  footer{
+    padding: 3rem 6rem 0  6rem;
+  }
+  
+  .footer__links li a{
+    font-size: 1.6rem;
+  }
+  .footer__text--mobile{
+ 
+    margin-right: 0rem;
+  }
+  .footer__text{
+    font-size: 12px;
+    padding-top: 2rem;
+  }
+  .footer__text--right{
+    text-align: center;
+  }
+  .footer__links, nav{
+    height:160px ;
   }
 }
 @media (max-width: 400px) {
@@ -636,6 +813,10 @@
   .hero__ImgDiv {
     top: 37rem;
   }
+ .hero__header,nav{
+  height: 10rem;
+ }
+ 
   .mission {
     height: 54rem;
   }
@@ -672,8 +853,26 @@
   .founder__card2 {
    width:85%;
     height: 17.5rem;
-    top: 23rem;
+    top: 27rem;
     left: 3.2rem;
     display: block;
+  }
+  footer{
+    padding: 3rem 3.2rem 0  3.2rem;
+  }
+  
+  .footer__links li a{
+    font-size: 1.2rem;
+  }
+
+  .footer__text{
+    font-size: 12px;
+    padding-top: 2rem;
+  }
+  .footer__text--right{
+    text-align: center;
+  }
+  .footer__links, nav{
+    height:170px ;
   }
 }
