@@ -129,6 +129,13 @@ button:nth-child(2) {
   height: auto;
   padding: 60px 0 0 120px;
 }
+.tiles__title{
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--clr-primary);
+  padding-bottom: 3rem;
+  display: none;
+}
 .tiles h2 {
   font-weight: 700;
   font-size: 24px;
@@ -151,7 +158,7 @@ button:nth-child(2) {
   display: flex;
   margin-top: 1.6rem;
   overflow: hidden;
-  flex-wrap: wrap;
+ 
 }
 .tiles__card {
  
@@ -226,16 +233,10 @@ button:nth-child(2) {
   margin-left: 12px;
   margin-top: 3px;
 }
-@media (max-width: 1100px) {
-  .tiles {
-    margin-top: 35.2rem;
-  }
+.tiles__butn--endbutton{
+  display: none;
 }
-@media (max-width: 850px) {
-  .tiles {
-    margin-top: 24rem;
-  }
-}
+
 @media (max-width: 600px) {
   .tiles {
     margin-top: 12.8rem;
@@ -292,37 +293,6 @@ button:nth-child(2) {
 .mission__ImgDiv--img {
   max-width: 100%;
 }
-@media (max-width: 600px) {
-  .mission {
-    height: 56rem;
-  }
-  .mission__container {
-    height:40rem ;
-    padding: 4rem 0 0 3.3rem;
-  }
-  .mission__container h2 {
-  
-    font-size: 1.4rem;
-    line-height: 2.4rem;
-  }
-  .mission__container h1 {
-  
-    font-size: 2.4rem;
-    padding: 1.6rem 1.6rem 0 0;
-  }
-  .mission__container p {
-   
-    font-size: 1.4rem;
-    letter-spacing: -0.01em;
-    padding: 0.8rem 1.6rem 0 0;
-  }
-  .mission__ImgDiv {
-    
-    top: 35rem;
-    
-  }
-  
-}
 .benefits{
   
   width: 100%;
@@ -366,40 +336,7 @@ letter-spacing: -0.01em;
 color: #3C3C3C;
 }
 @media (max-width: 600px) {
-  .benefits{
-    height: 46rem;
-
-  }
-  .benefits h2{
-    font-size: 1.4rem;
-    padding: 4rem 0 4.7rem 3.2rem;
-  }
-  .benefits__container{
-   
-    padding-left:3.2rem ;
-   
-  }
-  .benefits__card{
-    width: 20.2rem;
-    height: 32.1rem;
-    margin-right: 1.6rem;
-  }
   
-  .benefits__card--img {
-    max-width: 20.2rem;
-    height: 26.9rem;
-  }
-  .benefits__card--img img{
-    max-width: 20.2rem;
-    height: 26.9rem;
-  }
-  .benefits__card--subtitle{
-margin-top: 1.2rem;
-  width: 20.2rem;
-  font-size: 1.4rem;
-  height: 0.4rem;
-  margin-bottom: 0;
-  }
 }
 footer{
   height: 41.5rem;

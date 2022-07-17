@@ -1,7 +1,7 @@
 @media (max-width: 1320px) {
   .tiles {
     padding: 60px 0 0 100px;
-    margin-top:22rem ;
+    margin-top: 22rem;
   }
   .tiles__col1 {
     width: 55rem;
@@ -9,33 +9,33 @@
   .tiles__col2 {
     width: 55rem;
   }
-  
-.tiles__image--one img {
+
+  .tiles__image--one img {
     width: 47.1rem;
     height: 26rem;
   }
-  
+
   .tiles__image--two img {
     max-width: 47rem;
     height: 22.2rem;
   }
-  
+
   .tiles__image--three img {
     max-width: 17.7rem;
     height: 22.2rem;
   }
 }
 @media (max-width: 1250px) {
-    .tiles {
-        margin-top:20rem ;
-        padding: 60px 0 0 70px;
-      }
-      .tiles__col1 {
-        width: 54rem;
-      }
-      .tiles__col2 {
-        width: 54rem;
-      }
+  .tiles {
+    margin-top: 20rem;
+    padding: 60px 0 0 70px;
+  }
+  .tiles__col1 {
+    width: 54rem;
+  }
+  .tiles__col2 {
+    width: 54rem;
+  }
 }
 @media (max-width: 1150px) {
   #hero__body h1 {
@@ -46,7 +46,7 @@
     margin-left: 5.5rem;
   }
   .tiles {
-    margin-top:17rem ;
+    margin-top: 17rem;
     padding: 60px 0 0 50px;
   }
   .tiles__col1 {
@@ -55,17 +55,17 @@
   .tiles__col2 {
     width: 50rem;
   }
-  
-.tiles__image--one img {
+
+  .tiles__image--one img {
     width: 42.1rem;
     height: 26rem;
   }
-  
+
   .tiles__image--two img {
     max-width: 42rem;
     height: 22.2rem;
   }
-  
+
   .tiles__image--three img {
     max-width: 16.7rem;
     height: 22.2rem;
@@ -75,11 +75,11 @@
     line-height: 4rem;
     padding-bottom: 50px;
   }
-  .tiles__card--title2{
+  .tiles__card--title2 {
     font-size: 2.8rem;
     padding-bottom: 40px;
   }
-  .tiles__card--title3{
+  .tiles__card--title3 {
     font-size: 15px;
     line-height: 130%;
     letter-spacing: -0.01em;
@@ -87,7 +87,92 @@
   }
 }
 @media (max-width: 1055px) {
+  .tiles h2 {
+    display: none;
+  }
+  .tiles__title {
+    display: block;
+  }
+  .tiles__col1 {
+    width: auto;
+    height: auto;
+  }
+  .tiles__col2 {
+    display: flex;
+    width: auto;
+  }
+  .tiles__butn {
+    display: none;
+  }
+  .tiles__butn--endbutton {
+    display: block;
+  }
 
+  .tiles__card--title {
+    font-size: 3rem;
+    line-height: 3.6rem;
+    padding-bottom: 60px;
+  }
+  .tiles__card--title2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    padding-bottom: 50px;
+  }
+  .tiles__card--title3 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    padding-bottom: 50px;
+  }
+  .tiles__image--one img {
+    max-width: 39rem;
+    height: 22rem;
+  }
+
+  .tiles__image--two img {
+    max-width: 39rem;
+    height: 22rem;
+  }
+
+  .tiles__image--three img {
+    max-width: 39rem;
+    height: 22rem;
+  }
+  .tiles__card {
+    height: 55rem;
+  }
+  .mission {
+    height: 87.6rem;
+  }
+  .mission__container {
+    padding: 7rem 0 0 10rem;
+    height: 60rem;
+    margin-right: 5rem;
+    margin-top: 9rem;
+  }
+  .mission__ImgDiv {
+    max-width: 90%;
+    top: 45.2rem;
+  }
+  .benefits {
+    height: 62.7rem;
+  }
+  .benefits h2 {
+    font-size: 22px;
+
+    padding: 5rem 0 4.7rem 9rem;
+  }
+  .benefits__container {
+    padding-left: 9rem;
+  }
+  .founder {
+    height: 35rem;
+
+    padding: 7rem 0 0 10rem;
+  }
+  .founder__cardbox {
+    max-width: 96rem;
+    margin: 26% 4% 0 5%;
+  }
 }
 @media (max-width: 1010px) {
   #hero__body h1 {
@@ -186,6 +271,165 @@
   .hero__ImgDiv {
     top: 50rem;
   }
+  .tiles {
+    margin-top: 18rem;
+  }
+  .tiles__card--subcontainer {
+    font-size: 12px;
+  }
+  .tiles__card--title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding-bottom: 20px;
+  }
+  .tiles__card--title2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding-bottom: 20px;
+  }
+  .tiles__card--title3 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding-bottom: 20px;
+  }
+  .tiles__image--one img {
+    max-width: 25rem;
+    height: 22rem;
+  }
+
+  .tiles__image--two img {
+    max-width: 25rem;
+    height: 22rem;
+  }
+
+  .tiles__image--three img {
+    max-width: 25rem;
+    height: 22rem;
+  }
+  .tiles__card {
+    height: 55rem;
+    padding: 20px 20px 0 20px;
+  }
+  .benefits {
+    height: 65.7rem;
+  }
+  .benefits h2 {
+    font-size: 20px;
+
+    padding: 5rem 0 4.7rem 8rem;
+  }
+  .benefits__container {
+    padding-left: 8rem;
+  }
+  .founder {
+    height: 30rem;
+
+    padding: 6rem 0 0 8rem;
+  }
+  .founder__cardbox {
+    max-width: 90rem;
+    margin: 20% 4% 0 5%;
+  }
+}
+@media (max-width: 800px) {
+  .tiles {
+    margin-top: 14rem;
+  }
+  .tiles__card--subcontainer {
+    font-size: 11px;
+  }
+  .tiles__card--title {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+    padding-bottom: 20px;
+  }
+  .tiles__card--title2 {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+    padding-bottom: 20px;
+  }
+  .tiles__card--title3 {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+    padding-bottom: 20px;
+  }
+  .tiles__image--one img {
+    max-width: 22.4rem;
+    height: 14rem;
+  }
+
+  .tiles__image--two img {
+    max-width: 22.4rem;
+    height: 14rem;
+  }
+
+  .tiles__image--three img {
+    max-width: 22.4rem;
+    height: 14rem;
+  }
+  .tiles__card {
+    height: 34rem;
+    padding: 18px 18px 0 18px;
+  }
+  .mission {
+    height: 80.6rem;
+  }
+  .mission__container {
+    padding: 5rem 0 0 8rem;
+    height: 50rem;
+    margin-right: 5rem;
+    margin-top: 9rem;
+  }
+  .mission__ImgDiv {
+    max-width: 90%;
+    top: 45.2rem;
+  }
+  .mission__container h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .benefits {
+    height: 60.7rem;
+  }
+  .benefits h2 {
+    font-size: 18px;
+
+    padding: 5rem 0 4.7rem 6rem;
+  }
+  .benefits__container {
+    padding-left: 6rem;
+  }
+  .founder {
+    height: 22rem;
+    padding: 5rem 0 0 7rem;
+  }
+  .founder__cardbox {
+    max-width: 85rem;
+    margin: 19% 4% 0 5%;
+  }
+  .founder__card {
+    max-width: 85%;
+    top: 13rem;
+  }
+  .founder__title {
+    font-size: 2rem;
+    line-height: 2rem;
+    
+  }
+  .founder__cardtext {
+   
+    font-size: 35px;
+   
+  }
+}
+@media (max-width: 700px) {
+  .tiles {
+    margin-top: 11rem;
+  }
+  .founder {
+    height: 20rem;
+    padding: 5rem 0 0 7rem;
+  }
 }
 @media (max-width: 620px) {
   #hero {
@@ -203,11 +447,125 @@
   .hero__ImgDiv {
     top: 48rem;
   }
+  .mission {
+    height: 72.6rem;
+  }
+  .mission__container {
+    padding: 4rem 0 0 6rem;
+    height: 50rem;
+    margin-right: 5rem;
+    margin-top: 9rem;
+  }
+  .mission__ImgDiv {
+    max-width: 90%;
+    top: 45.2rem;
+  }
+  .mission__container h1 {
+    font-size: 4rem;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+  }
+  .benefits {
+    height: 46rem;
+  }
+  .benefits h2 {
+    font-size: 1.4rem;
+    padding: 4rem 0 4.7rem 3.2rem;
+  }
+  .benefits__container {
+    padding-left: 3.2rem;
+  }
+  .benefits__card {
+    width: 20.2rem;
+    height: 32.1rem;
+    margin-right: 1.6rem;
+  }
+
+  .benefits__card--img {
+    max-width: 20.2rem;
+    height: 26.9rem;
+  }
+  .benefits__card--img img {
+    max-width: 20.2rem;
+    height: 26.9rem;
+  }
+  .benefits__card--subtitle {
+    margin-top: 1.2rem;
+    width: 20.2rem;
+    font-size: 1.4rem;
+    height: 0.4rem;
+    margin-bottom: 0;
+  }
+  .founder {
+    height: 12.5rem;
+    padding: 4rem 0 0 3.2rem;
+  }
+  .founder__title {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+  }
+  .founder__card {
+    max-width: 100%;
+    height: 17.5rem;
+    top: 7rem;
+    left: 3.2rem;
+  }
+  .founder__cardImg {
+    max-width: 100%;
+  }
+  .founder__cardbox {
+    max-width: 102rem;
+    margin: 20% 4% 0 5%;
+  }
+  .founder__cardtext {
+    font-size: 24px;
+  }
+  .founder__cardline {
+    display: none;
+  }
+  .founder__card{
+    top: 8rem;
+    width: 66%
+  }
+  .founder__card2 {
+    width: 66%;
+    height: 17.5rem;
+    top: 27rem;
+    left: 3.2rem;
+    display: block;
+  }
+}
+@media (max-width: 560px) {
+  .mission {
+    height: 70rem;
+  }
+  .mission__container {
+    padding: 4rem 0 0 5rem;
+    height: 50rem;
+    margin-right: 4rem;
+    margin-top: 8rem;
+  }
+  .mission__container h1 {
+    font-size: 3.5rem;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+  }
+  .founder__card{
+    top: 8rem;
+    width: 73%;
+  }
+  .founder__card2 {
+    width: 73%;
+    height: 17.5rem;
+    top: 26rem;
+    left: 3.2rem;
+    display: block;
+  }
 }
 @media (max-width: 500px) {
   #hero {
     height: 50rem;
-    margin-left: 4rem;
+    margin-left: 3rem;
   }
   #hero__body h1 {
     font-size: 3rem;
@@ -220,24 +578,102 @@
   .hero__ImgDiv {
     top: 40rem;
   }
+  .tiles {
+    margin-top: 5rem;
+  }
+  .mission {
+    height: 56rem;
+  }
+  .mission__container {
+    padding: 4rem 0 0 3.5rem;
+    height: 40rem;
+    margin-right: 4rem;
+    margin-top: 5rem;
+  }
+  .mission__ImgDiv {
+    max-width: 90%;
+    top: 35.2rem;
+  }
+  .mission__container h1 {
+    font-size: 3rem;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+  }
+  .mission__container h2 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+  .mission__container p {
+    font-size: 1.4rem;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    color: white;
+    padding: 2rem 0rem 0 0;
+    max-width: 35rem;
+  }
+  .founder__card2 {
+   
+    height: 17.5rem;
+    top: 24rem;
+    left: 3.2rem;
+    display: block;
+  }
 }
 @media (max-width: 400px) {
-  html {
-    font-size: 80%;
-  }
   #hero {
-    height: 35em;
-    margin-left: 4rem;
+    height: 42em;
+    margin-left: 2rem;
   }
   #hero__body h1 {
-    font-size: 2rem;
+    font-size: 2.8rem;
     max-width: 30rem;
   }
   .hero__body--butn {
     width: 17rem;
     margin-top: 1rem;
+    line-height: 90%;
   }
   .hero__ImgDiv {
-    top: 30rem;
+    top: 37rem;
+  }
+  .mission {
+    height: 54rem;
+  }
+  .mission__container {
+    padding: 4rem 0 0 3.3rem;
+    height: 40rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+  }
+  .mission__ImgDiv {
+    max-width: 90%;
+    top: 35.2rem;
+  }
+  .mission__container h1 {
+    font-size: 2.4rem;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+  }
+  .mission__container h2 {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+  }
+  .mission__container p {
+    font-size: 1.4rem;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    color: white;
+    padding: 1rem 0rem 0 0;
+    max-width: 31rem;
+  }
+  .founder__card{
+    width: 85%;
+  }
+  .founder__card2 {
+   width:85%;
+    height: 17.5rem;
+    top: 23rem;
+    left: 3.2rem;
+    display: block;
   }
 }
