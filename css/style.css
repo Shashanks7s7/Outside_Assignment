@@ -335,7 +335,8 @@ button:nth-child(2) {
   width: 100%;
   padding-left: 12rem;
   display: flex;
-  overflow-y: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 .benefits__card {
   width: 25.5rem;

@@ -130,7 +130,8 @@ html {
 .gallery__container {
   width: 90%;
   display: flex;
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
   margin-top: 15rem;
 }
 .gallery__card {
