@@ -211,6 +211,9 @@
     width: 17rem;
     margin-top: 5rem;
   }
+  .nav__subtext {
+    display: block;
+  }
   .icon2 {
     margin-left: 4rem;
     margin-right: 2rem;
@@ -254,6 +257,8 @@
     left: -100%;
     top: 200px;
     text-align: start;
+    
+  
   }
   .nav__links li {
     display: block;
@@ -276,10 +281,10 @@
     position: fixed;
     width: 100%;
     height: 100vh;
-    overflow-y: scroll;
+ 
   }
-  .hero__header{
-    padding-bottom: 0 ;
+  .hero__header {
+    padding-bottom: 0;
   }
   #hero__body.active {
     display: none;
@@ -294,7 +299,7 @@
   .tiles {
     margin-top: 18rem;
   }
-  #tiles.active{
+  #tiles.active {
     display: none;
   }
   .tiles__card--subcontainer {
@@ -333,13 +338,13 @@
     height: 55rem;
     padding: 20px 20px 0 20px;
   }
-  #mission.active{
+  #mission.active {
     display: none;
   }
   .benefits {
     height: 65.7rem;
   }
-  #benefits.active{
+  #benefits.active {
     display: none;
   }
   .benefits h2 {
@@ -350,16 +355,16 @@
   .benefits__container {
     padding-left: 8rem;
   }
-  #founder.active{
+  #founder.active {
     display: none;
   }
-  #gallery.active{
+  #gallery.active {
     display: none;
   }
-  #founder.active{
+  #founder.active {
     display: none;
   }
-  #footer.active{
+  #footer.active {
     display: none;
   }
   .founder {
@@ -687,6 +692,12 @@
   .footer__text {
     padding-left: 0rem;
   }
+}
+@media (max-width: 600px) {
+  .tiles {
+    margin-top: 12.8rem;
+  }
+  
 }
 @media (max-width: 560px) {
   .mission {
