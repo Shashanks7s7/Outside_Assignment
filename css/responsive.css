@@ -253,12 +253,10 @@
     clear: right;
     position: fixed;
     width: 70%;
-    height: 90vh;
+    height: 100vh;
     left: -100%;
-    top: 200px;
+    top: 180px;
     text-align: start;
-    
-  
   }
   .nav__links li {
     display: block;
@@ -281,7 +279,6 @@
     position: fixed;
     width: 100%;
     height: 100vh;
- 
   }
   .hero__header {
     padding-bottom: 0;
@@ -697,7 +694,6 @@
   .tiles {
     margin-top: 12.8rem;
   }
-  
 }
 @media (max-width: 560px) {
   .mission {
