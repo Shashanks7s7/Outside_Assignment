@@ -140,11 +140,12 @@ html {
 }
 
 .gallery {
-   
+
     width: 100%;
     height: 80.2rem;
     background: white;
     padding: 9rem 0 0 12rem;
+
     &__title {
         font-style: normal;
         font-weight: 700;
@@ -155,29 +156,34 @@ html {
         padding-bottom: 6rem;
         margin-top: 3rem;
         display: none;
-        &--one{
+
+        &--one {
             display: block;
         }
-       
+
     }
-    &__container{
+
+    &__container {
         width: 90%;
         display: flex;
         overflow: hidden;
         margin-top: 15rem;
     }
-    &__card{
+
+    &__card {
         width: 40rem;
-        
-        border: 1px solid #f2efee ;
+
+        border: 1px solid #f2efee;
         padding: 4rem;
     }
-    &__cardImage{
+
+    &__cardImage {
         max-width: 32rem;
-   
-        
+
+
     }
-    &__subtext{
+
+    &__subtext {
         padding-top: 12px;
         font-weight: 400;
         font-size: 14px;
@@ -186,8 +192,9 @@ html {
         color: #74788A;
     }
 }
-.footer{
-    &__logo{
+
+.footer {
+    &__logo {
         margin-left: -2rem;
         width: 14.8rem;
         height: 4.6rem;
@@ -196,51 +203,60 @@ html {
         background-image: url(../images/dummy-logo.png);
 
     }
-    &__liner{
+
+    &__liner {
         margin-top: 4.4rem;
         max-width: 120rem;
         height: 1px;
         background: #FFFFFF;
         opacity: 0.1;
     }
+
     &__links {
         margin-left: 0rem;
         margin-top: 2rem;
-        float:left ;
+        float: left;
         list-style: none;
-      }
+    }
+
     &__links li {
         display: inline-block;
         padding: 0 6rem 0 0;
-      }
+    }
+
     &__links li a {
         text-decoration: none;
         color: white;
         font-style: normal;
         font-weight: 400;
         font-size: 1.4rem;
-      }
+    }
+
     &__links li a:hover {
         opacity: 0.6;
-      }
-      &__icon{
+    }
+
+    &__icon {
         float: right;
         width: 1.6rem;
         height: 1.6rem;
         margin-left: 3.2rem;
-        margin-top: 2.2rem; 
+        margin-top: 2.2rem;
         cursor: pointer;
-        &--mobile{
+
+        &--mobile {
             display: none;
         }
- 
-      }
-      &__icon:hover{
+
+    }
+
+    &__icon:hover {
         opacity: 0.5;
-      }
-      &__text{
+    }
+
+    &__text {
         padding-top: 12rem;
-        padding-right:5rem ;
+        padding-right: 5rem;
         float: left;
         font-style: normal;
         font-weight: 400;
@@ -248,13 +264,15 @@ html {
         color: #FFFFFF;
         opacity: 0.5;
         cursor: pointer;
-        &--right{
-           padding-right: 0;
+
+        &--right {
+            padding-right: 0;
             float: right;
         }
-      }
-      &__text:hover{
+    }
+
+    &__text:hover {
         opacity: 0.3;
-      }
-      
+    }
+
 }

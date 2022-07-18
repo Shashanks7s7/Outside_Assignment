@@ -46,9 +46,7 @@
     margin-left: 5.5rem;
   }
   .hero__ImgDiv {
-    
     top: 55.2rem;
-    
   }
   .tiles {
     margin-top: 17rem;
@@ -90,8 +88,8 @@
     letter-spacing: -0.01em;
     padding-bottom: 40px;
   }
-  footer{
-    padding: 7.6rem 12rem 0  10rem;
+  footer {
+    padding: 7.6rem 12rem 0 10rem;
   }
 }
 @media (max-width: 1055px) {
@@ -181,11 +179,10 @@
     max-width: 96rem;
     margin: 26% 4% 0 5%;
   }
-  footer{
-    padding: 7rem 10rem 0  8rem;
+  footer {
+    padding: 7rem 10rem 0 8rem;
   }
   .footer__links li {
-    
     padding: 0 4rem 0 0;
   }
 }
@@ -279,18 +276,26 @@
     position: fixed;
     width: 100%;
     height: 100vh;
+    overflow-y: scroll;
+  }
+  .hero__header{
+    padding-bottom: 0 ;
   }
   #hero__body.active {
     display: none;
   }
-  #hero__ImgDiv.active{
-display: none;
+  #hero__ImgDiv.active {
+    display: none;
   }
+
   .hero__ImgDiv {
     top: 52rem;
   }
   .tiles {
     margin-top: 18rem;
+  }
+  #tiles.active{
+    display: none;
   }
   .tiles__card--subcontainer {
     font-size: 12px;
@@ -328,8 +333,14 @@ display: none;
     height: 55rem;
     padding: 20px 20px 0 20px;
   }
+  #mission.active{
+    display: none;
+  }
   .benefits {
     height: 65.7rem;
+  }
+  #benefits.active{
+    display: none;
   }
   .benefits h2 {
     font-size: 20px;
@@ -338,6 +349,18 @@ display: none;
   }
   .benefits__container {
     padding-left: 8rem;
+  }
+  #founder.active{
+    display: none;
+  }
+  #gallery.active{
+    display: none;
+  }
+  #founder.active{
+    display: none;
+  }
+  #footer.active{
+    display: none;
   }
   .founder {
     height: 30rem;
@@ -348,50 +371,42 @@ display: none;
     max-width: 90rem;
     margin: 20% 4% 0 5%;
   }
-  .footer__icon{
+  .footer__icon {
     display: none;
-  
   }
-  .footer__icon--mobile{
+  .footer__icon--mobile {
     display: block;
   }
-  .footer__logo{
+  .footer__logo {
     float: left;
-  
   }
-  .footer__liner{
+  .footer__liner {
     clear: left;
     margin-top: 7rem;
   }
-  .footer__links{
+  .footer__links {
     float: none;
-    
   }
-  .footer__col2{
+  .footer__col2 {
     float: right;
   }
-  .footer__links li{
+  .footer__links li {
     display: blocK;
     padding: 10px 0;
   }
-  .footer__links li a{
+  .footer__links li a {
     font-size: 1.8rem;
   }
-  nav{height: 13rem;}
-  .footer__text{
+  nav {
+    height: 13rem;
+  }
+  .footer__text {
     padding-top: 2rem;
   }
- 
-  
-
-  
-  
 }
 @media (max-width: 800px) {
   .hero__ImgDiv {
-    
     top: 56.2rem;
-    
   }
   .tiles {
     margin-top: 14rem;
@@ -475,27 +490,24 @@ display: none;
   .founder__title {
     font-size: 2rem;
     line-height: 2rem;
-    
   }
   .founder__cardtext {
-   
     font-size: 35px;
-   
   }
-  footer{
-    padding: 6rem 12rem 0  10rem;
+  footer {
+    padding: 6rem 12rem 0 10rem;
   }
-  .footer__text--right{
+  .footer__text--right {
     float: none;
     clear: left;
     padding-right: 0rem;
   }
-  .footer__text--mobile{
+  .footer__text--mobile {
     float: right;
-    padding-right:0rem ;
+    padding-right: 0rem;
     margin-right: -6rem;
   }
-  .footer__text--right{
+  .footer__text--right {
     text-align: center;
     padding-top: 32px;
   }
@@ -504,17 +516,15 @@ display: none;
   .hero__header {
     padding: 4rem;
   }
-  #hero__body{
-    padding:20px 16px 0px 60px;
+  #hero__body {
+    padding: 20px 16px 0px 60px;
   }
   #hero__body h1 {
     font-size: 4rem;
     max-width: 68rem;
   }
   .hero__ImgDiv {
-    
     top: 55.2rem;
-    
   }
   .tiles {
     margin-top: 11rem;
@@ -540,9 +550,10 @@ display: none;
   .hero__ImgDiv {
     top: 45rem;
   }
-  .hero__header,nav{
+  .hero__header,
+  nav {
     height: 12rem;
-   }
+  }
   .mission {
     height: 72.6rem;
   }
@@ -619,7 +630,7 @@ display: none;
   .founder__cardline {
     display: none;
   }
-  .founder__card{
+  .founder__card {
     top: 8rem;
     width: 66%;
     background-size: cover;
@@ -631,49 +642,49 @@ display: none;
     left: 3.2rem;
     display: block;
   }
-  .founder__cardtext--two{
+  .founder__cardtext--two {
     display: none;
   }
-  .gallery{
+  .gallery {
     height: 82rem;
     padding-left: 4rem;
   }
-  .gallery__container{
+  .gallery__container {
     margin-top: 0;
   }
-  .gallery__title{
+  .gallery__title {
     display: block;
     font-size: 18px;
     margin-top: 30rem;
     padding-bottom: 1.6rem;
   }
-  .gallery__title--one{
+  .gallery__title--one {
     display: none;
   }
-  .gallery__card{
+  .gallery__card {
     width: 25.6rem;
-padding: 2rem;
-
+    padding: 2rem;
   }
-  .gallery__cardImage{
+  .gallery__cardImage {
     max-width: 22.4rem;
   }
-  .gallery__cardImage img{
+  .gallery__cardImage img {
     width: 21.4rem;
   }
-  .gallery__subtext{
+  .gallery__subtext {
     padding-top: 8px;
     font-weight: 400;
     font-size: 12px;
     line-height: 140%;
   }
-  footer{
-    padding: 5rem 8rem 0  8rem;
+  footer {
+    padding: 5rem 8rem 0 8rem;
   }
-  .footer__links, nav{
-    height:150px ;
+  .footer__links,
+  nav {
+    height: 150px;
   }
-  .footer__text{
+  .footer__text {
     padding-left: 0rem;
   }
 }
@@ -692,7 +703,7 @@ padding: 2rem;
     line-height: 110%;
     letter-spacing: -0.02em;
   }
-  .founder__card{
+  .founder__card {
     top: 8rem;
     width: 73%;
   }
@@ -703,14 +714,13 @@ padding: 2rem;
     left: 3.2rem;
     display: block;
   }
-  
 }
 @media (max-width: 500px) {
   #hero {
     height: 45rem;
     margin-left: 3rem;
   }
-  #hero__body{
+  #hero__body {
     padding: 10px 16px 0px 30px;
   }
   #hero__body h1 {
@@ -723,13 +733,15 @@ padding: 2rem;
   }
   .hero__ImgDiv {
     top: 35rem;
+    left: 3.5rem;
   }
   .hero__header {
     padding: 3rem;
   }
-  .hero__header,nav{
+  .hero__header,
+  nav {
     height: 10rem;
-   }
+  }
   .tiles {
     margin-top: 5rem;
   }
@@ -764,7 +776,6 @@ padding: 2rem;
     max-width: 35rem;
   }
   .founder__card2 {
-   
     height: 17.5rem;
     top: 27rem;
     left: 3.2rem;
@@ -774,26 +785,26 @@ padding: 2rem;
     max-width: 102rem;
     margin: 35% 4% 0 5%;
   }
-  footer{
-    padding: 3rem 6rem 0  6rem;
+  footer {
+    padding: 3rem 6rem 0 6rem;
   }
-  
-  .footer__links li a{
+
+  .footer__links li a {
     font-size: 1.6rem;
   }
-  .footer__text--mobile{
- 
+  .footer__text--mobile {
     margin-right: 0rem;
   }
-  .footer__text{
+  .footer__text {
     font-size: 12px;
     padding-top: 2rem;
   }
-  .footer__text--right{
+  .footer__text--right {
     text-align: center;
   }
-  .footer__links, nav{
-    height:160px ;
+  .footer__links,
+  nav {
+    height: 160px;
   }
 }
 @media (max-width: 400px) {
@@ -813,10 +824,11 @@ padding: 2rem;
   .hero__ImgDiv {
     top: 37rem;
   }
- .hero__header,nav{
-  height: 10rem;
- }
- 
+  .hero__header,
+  nav {
+    height: 10rem;
+  }
+
   .mission {
     height: 54rem;
   }
@@ -847,32 +859,33 @@ padding: 2rem;
     padding: 1rem 0rem 0 0;
     max-width: 31rem;
   }
-  .founder__card{
+  .founder__card {
     width: 85%;
   }
   .founder__card2 {
-   width:85%;
+    width: 85%;
     height: 17.5rem;
     top: 27rem;
     left: 3.2rem;
     display: block;
   }
-  footer{
-    padding: 3rem 3.2rem 0  3.2rem;
+  footer {
+    padding: 3rem 3.2rem 0 3.2rem;
   }
-  
-  .footer__links li a{
+
+  .footer__links li a {
     font-size: 1.2rem;
   }
 
-  .footer__text{
+  .footer__text {
     font-size: 12px;
     padding-top: 2rem;
   }
-  .footer__text--right{
+  .footer__text--right {
     text-align: center;
   }
-  .footer__links, nav{
-    height:170px ;
+  .footer__links,
+  nav {
+    height: 170px;
   }
 }

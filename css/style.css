@@ -2,7 +2,7 @@
   font-family: Galaxie;
   src: url(../fonts/GalaxieCopernicus.otf);
 }
-html{
+html {
   font-size: 62.5%;
 }
 
@@ -22,7 +22,7 @@ header {
   float: right;
   cursor: pointer;
 }
-.icon:hover{
+.icon:hover {
   opacity: 0.6;
 }
 .icon2 {
@@ -36,7 +36,6 @@ header {
   height: 76.8rem;
   background: white;
   position: relative;
-  
 }
 .hero__header {
   padding: 6rem;
@@ -84,17 +83,17 @@ header {
 #hero__body {
   padding: 26px 16px 0px 60px;
   display: flex;
- 
 }
-.hero__body,h1 {
+.hero__body,
+h1 {
   max-width: 85.5rem;
   font-family: var(--ff-primary);
   font-weight: 400;
   font-size: 6.4rem;
   color: var(--clr-primary);
   line-height: 110%;
-  letter-spacing: -0.02em; 
- }
+  letter-spacing: -0.02em;
+}
 .hero__body--butn {
   width: 17rem;
   margin-top: 12rem;
@@ -114,7 +113,7 @@ button:nth-child(2) {
 }
 .hero__ImgDiv {
   position: absolute;
-  left: 2rem;
+  left: 6rem;
   top: 48.2rem;
   max-width: 100%;
   height: auto;
@@ -129,7 +128,7 @@ button:nth-child(2) {
   height: auto;
   padding: 60px 0 0 120px;
 }
-.tiles__title{
+.tiles__title {
   font-weight: 700;
   font-size: 24px;
   color: var(--clr-primary);
@@ -142,26 +141,21 @@ button:nth-child(2) {
   color: var(--clr-primary);
   padding-bottom: 6rem;
 }
-.tiles__col1{
-  width: 60rem;
-
-}
-.tiles__col2{
-  
+.tiles__col1 {
   width: 60rem;
 }
-.tiles__col3{
+.tiles__col2 {
+  width: 60rem;
+}
+.tiles__col3 {
   display: flex;
- 
 }
 .tiles__container {
   display: flex;
   margin-top: 1.6rem;
   overflow: hidden;
- 
 }
 .tiles__card {
- 
   height: auto;
   border: 1px solid white;
   padding: 40px 40px 0 40px;
@@ -204,11 +198,11 @@ button:nth-child(2) {
   color: var(--clr-black);
   padding: 12px 0px 91px 0px;
 }
-.tiles__card--title2{
+.tiles__card--title2 {
   font-size: 3.2rem;
   padding-bottom: 56px;
 }
-.tiles__card--title3{
+.tiles__card--title3 {
   font-size: 18px;
   line-height: 140%;
   letter-spacing: -0.01em;
@@ -224,7 +218,7 @@ button:nth-child(2) {
   border-bottom: 1px solid #c4c4c4;
   cursor: pointer;
 }
-.tiles__butn:hover{
+.tiles__butn:hover {
   opacity: 0.8;
 }
 .tiles__butn img {
@@ -233,7 +227,7 @@ button:nth-child(2) {
   margin-left: 12px;
   margin-top: 3px;
 }
-.tiles__butn--endbutton{
+.tiles__butn--endbutton {
   display: none;
 }
 
@@ -293,25 +287,24 @@ button:nth-child(2) {
 .mission__ImgDiv--img {
   max-width: 100%;
 }
-.benefits{
-  
+.benefits {
   width: 100%;
   height: 76.7rem;
   background-color: white;
 }
-.benefits h2{
+.benefits h2 {
   font-weight: 700;
   font-size: 24px;
   color: var(--clr-primary);
   padding: 8rem 0 4.7rem 12rem;
 }
-.benefits__container{
+.benefits__container {
   width: 100%;
-  padding-left:12rem ;
+  padding-left: 12rem;
   display: flex;
   overflow: hidden;
 }
-.benefits__card{
+.benefits__card {
   width: 25.5rem;
   height: 49.7rem;
   margin-right: 6rem;
@@ -322,35 +315,34 @@ button:nth-child(2) {
   height: 34rem;
 }
 
-.benefits__card--subtitle{
+.benefits__card--subtitle {
   max-width: 25.5rem;
   height: 5rem;
-  margin-top:2rem ;
+  margin-top: 2rem;
   margin-bottom: 11.3rem;
   font-family: var(--ff-primary);
   font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 140%;
-letter-spacing: -0.01em;
-color: #3C3C3C;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: -0.01em;
+  color: #3c3c3c;
 }
 @media (max-width: 600px) {
-  
 }
-footer{
+footer {
   height: 41.5rem;
   width: 100%;
   background-color: var(--clr-black);
-  padding: 7.6rem 12rem 0  12rem;
+  padding: 7.6rem 12rem 0 12rem;
 }
-nav{
+nav {
   height: 8rem;
 }
 
-.footer__col1{
+.footer__col1 {
   float: left;
 }
-.footer__col2{
+.footer__col2 {
   float: left;
 }
