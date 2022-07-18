@@ -18,14 +18,14 @@ html {
   height: 47rem;
   position: relative;
   padding: 8rem 0 0 12rem;
-  background-color: #d7c3ae;
+  background-color: #D7C3AE;
 }
 .founder__title {
   font-style: normal;
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 2.4rem;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .founder__card {
   max-width: 95%;
@@ -55,7 +55,7 @@ html {
 .founder__cardline {
   max-width: 120rem;
   height: 1px;
-  background: #ffffff;
+  background: #FFFFFF;
   opacity: 0.2;
 }
 .founder__card2 {
@@ -130,7 +130,7 @@ html {
 .gallery__container {
   width: 90%;
   display: flex;
-  overflow: hidden;
+  overflow: scroll;
   margin-top: 15rem;
 }
 .gallery__card {
@@ -147,7 +147,7 @@ html {
   font-size: 14px;
   line-height: 140%;
   letter-spacing: 0.02em;
-  color: #74788a;
+  color: #74788A;
 }
 
 .footer__logo {
@@ -162,7 +162,7 @@ html {
   margin-top: 4.4rem;
   max-width: 120rem;
   height: 1px;
-  background: #ffffff;
+  background: #FFFFFF;
   opacity: 0.1;
 }
 .footer__links {
@@ -206,7 +206,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  color: #ffffff;
+  color: #FFFFFF;
   opacity: 0.5;
   cursor: pointer;
 }
@@ -216,4 +216,4 @@ html {
 }
 .footer__text:hover {
   opacity: 0.3;
-} /*# sourceMappingURL=founder.css.map */
+}/*# sourceMappingURL=founder.css.map */

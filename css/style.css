@@ -192,7 +192,7 @@ button:nth-child(2) {
 .tiles__container {
   display: flex;
   margin-top: 1.6rem;
-  overflow: hidden;
+  overflow:hidden
 }
 .tiles__card {
   height: auto;
@@ -335,7 +335,7 @@ button:nth-child(2) {
   width: 100%;
   padding-left: 12rem;
   display: flex;
-  overflow: hidden;
+  overflow-y: scroll;
 }
 .benefits__card {
   width: 25.5rem;

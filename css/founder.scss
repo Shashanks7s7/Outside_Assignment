@@ -166,21 +166,18 @@ html {
     &__container {
         width: 90%;
         display: flex;
-        overflow: hidden;
+        overflow: scroll;
         margin-top: 15rem;
     }
 
     &__card {
         width: 40rem;
-
         border: 1px solid #f2efee;
         padding: 4rem;
     }
 
     &__cardImage {
         max-width: 32rem;
-
-
     }
 
     &__subtext {
